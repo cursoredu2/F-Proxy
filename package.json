@@ -7,17 +7,20 @@
     "start": "bun run index.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/async": "^3.2.24",
+    "@types/bun": "latest",
+    "@types/figlet": "^1.7.0",
+    "@types/progress": "^2.0.7"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
-    "@types/async": "^3.2.24",
-    "@types/progress": "^2.0.7",
     "async": "^3.2.6",
-    "cfonts": "^3.3.0",
     "chalk": "^5.4.1",
+    "figlet": "^1.10.0",
+    "fofa-sdk": "^0.0.2",
+    "gradient-string": "^3.0.0",
     "progress": "^2.0.3",
     "yaml": "^2.8.1"
   }
